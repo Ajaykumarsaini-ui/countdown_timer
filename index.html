@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+        }
+        
+        #countdown {
+          font-size: 24px;
+          margin-top: 20px;
+        }
+        
+      </style>
+      </head>
+      <body>
+      <h1 class="py-4">Countdown Timer</h1>
+      <div class="container">
+
+        <div class="row">
+          
+          <div id="countdown" class=" table-responsive offset-lg-3 col-lg-6 offset-lg-3">
+            <table class="table table-borderless">
+              <thead>
+                <tr class="tr">
+                  <th class="table_head">Enter Date</th>
+                  <th class="table_head">Enter Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="">
+                  <td><input type="date" name="" id="date" class="form-control"></td>
+                  <td><input type="time" name="" id="time" class="form-control"></td>
+                </tr>
+                  
+              </tbody>
+            </table>
+            <div class="buttons">
+              <button class="btn" id="calculate">Calculate</button>
+              <button class="btn" id="stop">Stop</button>
+              <button class="btn" id="reset">Reset</button>
+            </div>
+
+            
+
+            
+          </div>
+              </div>
+            </div>
+      <div class="container">
+        <div class="row">
+          <div class="offset-sm-3 col-sm-6 offset-sm-3 d-flex my-4 countdown">
+            <div class="col-sm-3">
+              <p class="heading">DAY</p>
+              <div class="time" id="countdown-days">0</div>
+            </div>
+            <div class="col-sm-3">
+              <p class="heading">HOURS</p>
+              <div class="time" id="countdown-hours">0</div>
+
+            </div>
+            <div class="col-sm-3">
+              <p class="heading">MINUTES</p>
+              <div class="time" id="countdown-minutes">0</div>
+
+            </div>
+            <div class="col-sm-3">
+              <p class="heading">SECONDS</p>
+              <div class="time" id="countdown-seconds">0</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+           
+      
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>

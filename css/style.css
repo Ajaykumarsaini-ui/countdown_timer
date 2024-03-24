@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to right,blue,pink); */
+}
+
+body{
+text-align: center;}
+.btn{
+    border: 2px solid black!important;
+    color: rgb(11, 11, 14)!important;
+    font-size: 20px!important;
+    font-weight: 700!important;
+    box-shadow: 1px 1px 5px black;
+       
+}
+.btn:hover{
+    background-image: linear-gradient(to right,yellow,pink,burlywood)!important;
+}
+table{
+    background-color: burlywood!important;
+}
+
+.time{
+    background-color: #090909;
+    color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+}
+.heading{
+    text-align: center;
+}
+h1{
+    font-weight: 700!important;
+    font-size: 55px!important;
+}
+
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transform: translate(-43px,0);
+}
+.form-control{
+    border: 2px solid black!important;
+    /* max-width: 200px;
+    text-align: center;
+    transform: translateX(50px);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.tr{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction:column; */
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px auto;
+}
+.heading{
+    font-weight: 700;
+    font-size: 20px;
+    color: #090909;
+}
+
+
+/* responsive  */
+
+@media screen and (max-width:900px) {
+    .heading{
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .countdown{
+        gap: 20px;
+        transform: translate(-30px,0);
+    }
+
+    h1{
+        font-weight: 700!important;
+        font-size: 45px!important;
+    }
+    .time{
+        font-size: 50px;
+    }
+       
+}
+
+@media screen and (max-width:576px) {
+    .heading{
+        font-weight: 700;
+        font-size: 13px;
+        /* gap: 10px; */
+           }
+
+    .countdown{
+        gap: 20px;
+        transform: translate(0px,0);
+        /* display: grid!important;
+        grid-template-columns: repeat(4,1fr)!important;
+     */
+     }
+     .table_head{
+        font-size: 20px;
+     }
+
+    h1{
+        font-weight: 700!important;
+        font-size: 35px!important;
+    }
+    .time{
+        font-size: 40px;
+        /* max-width: 40px; */
+        height: 57px;width: 50px;
+    }
+    .buttons{
+        gap: 10px;
+        margin: 20px auto;
+    }
+    
+     
+}
